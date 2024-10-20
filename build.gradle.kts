@@ -28,6 +28,9 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 
+	// Loging
+	implementation("io.github.microutils:kotlin-logging-jvm:3.0.5")
+
 	// Data base
 	runtimeOnly("org.postgresql:postgresql")
 
